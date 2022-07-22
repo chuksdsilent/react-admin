@@ -17,7 +17,7 @@ const Widgets = ({ type }) => {
         title: "USERS",
         isMoney: false,
         link: "See all Users",
-        icon: (<PersonIcon class="icon" style={{ backgroundColor: "rgba(255,0,0,.2)" }} />)
+        icon: (<PersonIcon class="icon" fontSize='small' style={{ backgroundColor: "rgba(255,0,0,.2)" }} />)
       }
       break;
     case "order":
@@ -25,7 +25,7 @@ const Widgets = ({ type }) => {
         title: "ORDERS",
         isMoney: false,
         link: "See all Users",
-        icon: (<AddShoppingCartIcon class="icon" style={{ backgroundColor: "#6433d833" }} />)
+        icon: (<AddShoppingCartIcon class="icon" fontSize='small' style={{ backgroundColor: "#6433d833" }} />)
       }
       break;
     case "earnings":
@@ -33,7 +33,7 @@ const Widgets = ({ type }) => {
         title: "EARNINGS",
         isMoney: true,
         link: "View all Earnings",
-        icon: (<MonetizationOnIcon class="icon" style={{ backgroundColor: "#62941267" }} />)
+        icon: (<MonetizationOnIcon class="icon" fontSize='small' style={{ backgroundColor: "#62941267" }} />)
       }
       break;
     case "balance":
@@ -41,7 +41,7 @@ const Widgets = ({ type }) => {
         title: "BALANCE",
         isMoney: true,
         link: "See details",
-        icon: (<AccountBalanceIcon class="icon" style={{ backgroundColor: "#d634a033" }} />)
+        icon: (<AccountBalanceIcon class="icon" fontSize='small' style={{ backgroundColor: "#d634a033" }} />)
       }
     default:
       break;
