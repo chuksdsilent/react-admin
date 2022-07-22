@@ -1,6 +1,6 @@
 # React Admin Panel
 
-This is admin panel dashboard built with reactjs
+This is admin panel dashboard was built with reactjs
 
 ## Features
 ### `npm run build` fails to minify
