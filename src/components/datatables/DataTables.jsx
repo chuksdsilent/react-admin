@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./DataTables.scss"
 import { DataGrid, GridColDef, GridValueGetterParams } from '@mui/x-data-grid';
 import { userColumns, userRows } from '../../databasesource';
 import { Link } from "react-router-dom"
 const DataTables = () => {
 
+    const [data, setData] = useState(userRows)
     const actionColumn = [
         {
             field: "action", headerName: "Action", width: 200, renderCell: () => {
@@ -32,7 +33,7 @@ const DataTables = () => {
             </div>
             <DataGrid
                 className='datagrid'
-                rows={userRows}
+                rows={data}
                 columns={userColumns.concat(actionColumn)}
                 pageSize={9}
                 rowsPerPageOptions={[9]}
