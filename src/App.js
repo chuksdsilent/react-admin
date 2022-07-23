@@ -1,6 +1,5 @@
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import styled from 'styled-components'
 import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
 import Single from "./pages/single/Single";
@@ -8,7 +7,6 @@ import List from "./pages/list/List";
 import New from "./pages/new/New";
 import { userInputs } from "./formSource";
 import "./style/Dark.scss"
-import { useState } from "react";
 import { useContext } from "react";
 import { DarkModeContext } from "./context/darkModeContext";
 function App() {
