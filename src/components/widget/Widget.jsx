@@ -43,6 +43,7 @@ const Widgets = ({ type }) => {
         link: "See details",
         icon: (<AccountBalanceIcon class="icon" fontSize='small' style={{ backgroundColor: "#d634a033" }} />)
       }
+      break;
     default:
       console.log("nothing...")
       break;
