@@ -18,11 +18,17 @@ This is admin panel dashboard was built with reactjs
     git clone https://github.com/chuksdsilent/react-admin.git 
 ```
 
- ```  cd into the directory ```
+ ```  
+    cd into the directory 
+```
 
- ``` npm install or yarn add ```
+ ```
+    npm install or yarn add
+```
 
- ``` npm run start ```
+ ``` 
+    npm run start 
+```
 ## Website
 
 [https://62dc1df75aa35c2d29cb66e2--graceful-pixie-52f661.netlify.app](https://62dc1df75aa35c2d29cb66e2--graceful-pixie-52f661.netlify.app/)
