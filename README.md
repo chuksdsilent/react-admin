@@ -14,12 +14,21 @@ This is admin panel dashboard was built with reactjs
 * Lightweight
 
 ### How to run Oshabz Admin Panel
- `git clone https://github.com/chuksdsilent/react-admin.git` to clone the repo
-
- `cd into the directory`
-
- `npm install or yarn add` to install all the packages
+ `
+ git clone https://github.com/chuksdsilent/react-admin.git
  
- `npm run start` to start the application
+ `
+
+ `
+ cd into the directory
+ `
+
+ `
+ npm install or yarn add
+ `
+
+ `
+ npm run start
+ ` 
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
