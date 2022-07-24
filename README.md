@@ -14,10 +14,7 @@ This is admin panel dashboard was built with reactjs
 * Lightweight
 
 ### How to run Oshabz Admin Panel
- `
- git clone https://github.com/chuksdsilent/react-admin.git
- 
- `
+ ` git clone https://github.com/chuksdsilent/react-admin.git `
 
  `
  cd into the directory
