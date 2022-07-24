@@ -13,7 +13,7 @@ This is admin panel dashboard was built with reactjs
 * Responsiveness
 * Lightweight
 
-### How to run Oshabz Admin Panel
+## How to run Oshabz Admin Panel
  ` git clone https://github.com/chuksdsilent/react-admin.git `
 
  `
@@ -27,6 +27,6 @@ This is admin panel dashboard was built with reactjs
  `
  npm run start
  ` 
-### Website
+## Website
 
 [https://62dc1df75aa35c2d29cb66e2--graceful-pixie-52f661.netlify.app](https://62dc1df75aa35c2d29cb66e2--graceful-pixie-52f661.netlify.app/)
