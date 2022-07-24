@@ -4,17 +4,25 @@ import DashboardIcon from '@mui/icons-material/Dashboard';
 import { AccountCircleOutlined, CreditCardOutlined, InsertChartOutlined, LocalShippingOutlined, NotificationsNoneOutlined, PersonOutlineOutlined, PowerInputOutlined, PsychologyOutlined, SettingsApplicationsOutlined, SettingsSystemDaydreamOutlined, StoreOutlined } from '@mui/icons-material';
 import { Link } from 'react-router-dom'
 import { DarkModeContext } from '../../context/darkModeContext';
+import CancelIcon from '@mui/icons-material/Cancel';
+import { MenuContext } from '../../context/MenuContext';
 const Sidebar = () => {
 
     const { dispatch } = useContext(DarkModeContext)
+    const { dispatchMenu } = useContext(MenuContext)
+
+    const { Menu } = useContext(MenuContext)
+
+    console.log(Menu);
     return (
-        <div className='sidebar'>
+        <div className={`sidebar ${Menu ? "activate" : "deactivate"}`}>
             <div className="top">
                 <Link to="/" style={{ textDecoration: "none" }}>
                     <div className="logo">
                         Oshabz
                     </div>
                 </Link>
+                <CancelIcon className='cancelIcon' style={{ cursor: "pointer" }} onClick={() => dispatchMenu({ type: "CLOSE" })} />
             </div>
             <hr />
             <div className="center">
@@ -153,7 +161,7 @@ const Sidebar = () => {
                 <div className="colorOption" onClick={() => dispatch({ type: "LIGHT" })}></div>
             </div>
 
-        </div>
+        </div >
     )
 }
 
