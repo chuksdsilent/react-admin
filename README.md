@@ -14,18 +14,19 @@ This is admin panel dashboard was built with reactjs
 * Lightweight
 
 ## How to run Oshabz Admin Panel
+To clone the repo
  ``` 
     git clone https://github.com/chuksdsilent/react-admin.git 
 ```
-
+ cd into the directory 
  ```  
-    cd into the directory 
+   cd react-admin
 ```
-
+Install all packages
  ```
     npm install or yarn add
 ```
-
+start the application
  ``` 
     npm run start 
 ```
