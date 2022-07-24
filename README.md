@@ -27,5 +27,6 @@ This is admin panel dashboard was built with reactjs
  `
  npm run start
  ` 
+### Website
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[https://62dc1df75aa35c2d29cb66e2--graceful-pixie-52f661.netlify.app](https://62dc1df75aa35c2d29cb66e2--graceful-pixie-52f661.netlify.app/)
