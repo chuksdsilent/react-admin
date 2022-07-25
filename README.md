@@ -1,4 +1,4 @@
-# Oshabz Admin Panel
+# Oshabz React Admin Panel
 
 This is admin panel dashboard was built with reactjs
 
@@ -12,6 +12,7 @@ This is admin panel dashboard was built with reactjs
 
 * Responsiveness
 * Lightweight
+* Light and Dark mode
 
 ## How to run Oshabz Admin Panel
 To clone the repo
