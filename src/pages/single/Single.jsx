@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { useContext, useEffect } from 'react'
 import Chart from '../../components/chart/Chart'
 import Navbar from '../../components/navbar/Navbar'
 import Sidebar from '../../components/sidebar/Sidebar'
 import TableComponent from '../../components/table/TableComponent'
 import "./Single.scss"
+import { MenuContext } from "../../context/MenuContext";
+
 const Single = () => {
+    const { dispatchMenu } = useContext(MenuContext)
+
+    useEffect(() => {
+        dispatchMenu({ "type": "CLOSE" })
+    }, [])
     return (
         <div className='single'>
             <Sidebar />

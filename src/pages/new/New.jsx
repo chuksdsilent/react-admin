@@ -1,12 +1,18 @@
-import React, { useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import Navbar from '../../components/navbar/Navbar'
 import Sidebar from '../../components/sidebar/Sidebar'
 import FileUploadIcon from '@mui/icons-material/FileUpload';
 
 import "./New.scss"
+import { MenuContext } from "../../context/MenuContext";
+
 const New = ({ title, inputs }) => {
     const [file, setFile] = useState("")
+    const { dispatchMenu } = useContext(MenuContext)
 
+    useEffect(() => {
+        dispatchMenu({ "type": "CLOSE" })
+    }, [])
     console.log(file)
     return (
         <div className='new'>
