@@ -97,9 +97,8 @@
         @media only screen and (max-width: 600px) {
             .home, .list, .new{
                 display: block !important;
-                 
                 .sidebar{
-                    position: absolute;
+                    position: fixed;
                     top: 0px;
                     width: 55%;
                     z-index: 1000;
